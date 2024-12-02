@@ -9,7 +9,7 @@ on:
       - main  # Trigger workflow on pull requests targeting the main branch
 
 jobs:
-  build-and-test:
+  continuous-integration:
     runs-on: ubuntu-latest  # Run job on the latest Ubuntu environment
 
     steps:
@@ -31,8 +31,8 @@ jobs:
       - name: Run Tests
         run: npm test
 
-  deploy:
-    needs: build-and-test  # Run this job only after build-and-test is successful
+  continuous-deployment:
+    needs: continuous-integration  # Run this job only after continuous-integration is successful
     runs-on: ubuntu-latest
 
     steps:
