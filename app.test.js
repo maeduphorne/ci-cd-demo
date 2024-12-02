@@ -1,4 +1,4 @@
-test('Hello World endpoint', () => {
-        const response = 'Hello, World!';
-        expect(response).toBe('Hello, World!');
+test('Hello Universe endpoint', () => {
+        const response = 'Hello, Universe!';
+        expect(response).toBe('Hello, Universe!');
     });  
