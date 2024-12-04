@@ -1,4 +1,4 @@
-test('Hello Universe endpoint', () => {
+test('Hello EventSphere endpoint', () => {
         const response = 'Hello, Event Sphere!';
         expect(response).toBe('Hello, EventSphere!');
     });  
