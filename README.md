@@ -1,3 +1,3 @@
 # EventSphere Broken Pipeline Demo
-Hello, EventSphere! This is a sample repository to demonstrate a pipeline run wiht a broken test.
+Hello, EventSphere! This is a sample repository to demonstrate a pipeline run with a broken test.
  
